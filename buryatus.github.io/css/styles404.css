@@ -1,0 +1,59 @@
+body {
+    /*background-blend-mode: multiply;*/
+    background: url('../images/bg_404.png') fixed;
+    background-size: cover;
+    background-color: rgb(60,80,60);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+	}
+.fon_scroll {
+			margin:0;
+			width:90%;
+			height:20%;
+			padding:30px;
+			background-image:url(../images/text.png);
+			background-repeat:no-repeat;
+			background-attachment:fixed;
+			background-position:1% 0%;
+	}
+a.button {
+	font-weight: 100;
+	color: white;
+	text-decoration: none;
+	padding: .8em 1em calc(.8em + 3px);
+	border-radius: 3px;
+	background: rgb(64,199,129);
+	box-shadow: 0 -3px rgb(53,167,110) inset;
+	transition: 0.2s;
+	} 
+	a.button:hover { background: rgb(53, 167, 110); }
+	a.button:active {
+	background: rgb(33,147,90);
+	box-shadow: 0 3px rgb(33,147,90) inset;
+	}	
+p 	{
+	font-family: Unifont, 'Comic Sans MS';
+	color: #e0ffff;
+	font-size: 32px;
+	}
+h1 {
+	font-family: Unifont, 'Comic Sans MS';
+	color: #e0dfff;
+	font-size:28px;
+	}
+h2 {
+	font-family: Unifont, 'Comic Sans MS';
+	color: #ffe0e0;
+	font-size: 18px;
+	}
+@font-face {
+    font-family: Unifont; /* Гарнитура шрифта */
+    src: url(fonts/unifont.ttf); /* Путь к файлу со шрифтом */
+	}
+
+.error{
+	font-family: Unifont;
+	font-size: 140px;
+	}
+
